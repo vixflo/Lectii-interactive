@@ -1,0 +1,79 @@
+# Articulate Storyline Project Files
+*.story.tmp
+*.story.cache
+~$*.story
+
+# Published Output (mari, nu ar trebui în repo)
+publicate/
+**/publicate/
+*/publicate/*
+
+# Temporary and Cache Files
+*.tmp
+*.cache
+*.bak
+~*
+.DS_Store
+Thumbs.db
+
+# Large Media Files (păstrează doar în folderele locale)
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.m4v
+
+# Large Audio Files
+*.wav
+*.aiff
+
+# Compressed Archives (publicate)
+*.zip
+*.rar
+*.7z
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Editor Backup Files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Node modules (dacă folosești tools JavaScript)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (dacă folosești scripts Python)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# Personal notes (dacă nu vrei să le share)
+NOTES.md
+TODO.md
+personal/
+
+# Sensitive Information
+secrets/
+credentials/
+*.env
+
+# Keep Structure Files
+!.gitkeep
