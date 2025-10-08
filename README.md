@@ -1,2 +1,2 @@
-# Lec-ii-interactive
+# Lectii-interactive
 Lecții interactive cu Articulate Storyline 360
